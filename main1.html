@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>FRCLUB</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script>
+        function mOver(obj) {
+            obj.innerHTML = "ENTER!!"
+        }
+
+        function mOut(obj) {
+            obj.innerHTML = "LOGIN"
+        }
+    </script>
+</head>
+
+<body style="background-image: url(LOGO.jpg); background-repeat: no-repeat;background-attachment: fixed;background-size: 100% 100%;">
+    <nav class="navbar navbar" style="background-color:rgb(199, 73, 73);">
+        <div class="container-fluid">
+            <div class="navbar-header">
+
+                <a class="navbar-brand" href="https://www.instagram.com/force.racing/">FRCLUB</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="https://www.kitsw.ac.in/">OUR COLLEGE</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span>SIGN-UP</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="row">
+        <div class="col-md-8"></div>
+        <div class="col-md-4 well"><b><u>LOGIN:</u></b>
+            <BR>
+            <form action="home.html">
+                <div class="form-group">
+                    <label for="email">Email address:</label>
+                    <input type="email" class="form-control" id="email">
+                </div>
+                <div class="form-group">
+                    <label for="pwd">Password:</label>
+                    <input type="password" class="form-control" id="pwd">
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox"> Remember me</label>
+                </div>
+                <button type="SIGN-IN" class="btn btn-default"><p onmouseover="mOver(this)" onmouseout="mOut(this)" >LOGIN</p></button>
+            </form>
+        </div>
+
+
+
+
+
+    </div>
+</body>
+
+</html>
