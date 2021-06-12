@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>HOME</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('[data-toggle="popover"]').popover();
+        });
+    </script>
+</head>
+
+<body style="background-image: url(LOGO1.png); background-repeat: no-repeat;background-attachment: fixed;background-size: 100% 100%;">
+    <nav class="navbar navbar" style="background-color:rgb(199, 73, 73);">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="https://www.instagram.com/force.racing/">FRCLUB</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="home.html">HOME</a></li>
+                    <li><a href="#" data-toggle="popover" data-content="NO new Messages">Messages</a></li>
+                </ul>
+                <form class="navbar-form navbar-nav" role="search">
+                    <div class="form-group input-group">
+                        <input type="text" class="form-control" placeholder="Search..">
+                        <span class="input-group-btn">
+                        <button class="btn btn-default" type="button">
+                          <span class="glyphicon glyphicon-search"></span>
+                        </button>
+                        </span>
+                    </div>
+                </form>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> My Account</a></li>
+                    <li><a href="main.html">LOGOUT</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-md-3 well">
+                <p><a href="https://in.linkedin.com/in/vishal-chandra-podishetty-27b985201">VISHAL CHANDRA PODISHETTY</a></p>
+                <img src="pp.jpg" class="img-circle" height="150" width="150" alt="profile pic">
+                <div class="well">
+                    <p><b>About me:</b></p>
+                    <p>
+                        I am 3rd year Cse B.tech student from KITSW.
+                    </p>
+                </div>
+                <p><a href="#">Activity</a></p>
+                <p><a href="#">Friends</a></p>
+                <p><a href="#">MEDIA</a></p>
+            </div>
+            <div class="col-md-6 gedf-main">
+
+                <div class="card gedf-card">
+                    <div class="card-header">
+                        <ul class="nav nav-tabs card-header-tabs" id="myTab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="posts-tab" data-toggle="tab" href="#posts" role="tab" aria-controls="posts" aria-selected="true">Make A Post</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="images-tab" data-toggle="tab" role="tab" aria-controls="images" aria-selected="false" href="#images">Images</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card-body">
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="posts" role="tabpanel" aria-labelledby="posts-tab">
+                                <div class="form-group">
+                                    <label class="sr-only" for="message">post</label>
+                                    <textarea class="form-control" id="message" rows="3" placeholder="What are you thinking?"></textarea>
+                                </div>
+
+                            </div>
+                            <div class="tab-pane fade" id="images" role="tabpanel" aria-labelledby="images-tab">
+                                <div class="form-group">
+                                    <div class="custom-file">
+                                        <input type="file" class="custom-file-input" id="customFile">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="btn-toolbar justify-content-between">
+                            <div class="btn-group">
+                                <button type="submit" class="btn btn-primary"> <span class="glyphicon glyphicon-share"></span>share</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card gedf-card">
+                    <div class="card-header">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="mr-2">
+                                <img class="rounded-circle" width="80" src="pp.jpg" alt="profile pic">
+                            </div>
+                            <div class="ml-2">
+                                <div class="h5 m-0">Vishal Chandra Podishetty</div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="well">
+                        <div class="text-muted h7 mb-2"> <i class="fa fa-clock-o"></i>11:30PM,today.</div>
+                        <a class="card-link" href="#">
+                            <h5 class="card-title">LOUIS HAMILTON😎😉</h5>
+                        </a>
+
+                        <div class="card-text">
+                            <img src="louis.jpg" alt="louis hamilton" style="width:500px;height:600px;">
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="card-link"><i class="fa fa-gittip"></i>  <span class="glyphicon glyphicon-heart"></span>Like</a>
+                            <a href="#" class="card-link"><i class="fa fa-comment"></i> <span class="glyphicon glyphicon-comment"></span>Comment</a>
+                            <a href="#" class="card-link"><i class="fa fa-mail-forward"></i>  <span class="glyphicon glyphicon-share"></span>Share</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card gedf-card">
+                    <div class="card-header">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="mr-2">
+                                <img class="rounded-circle" width="80" src="pp.jpg" alt="profile pic">
+                            </div>
+                            <div class="ml-2">
+                                <div class="h5 m-0">Vishal Chandra Podishetty</div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="well">
+                        <div class="text-muted h7 mb-2"> <i class="fa fa-clock-o"></i>2:00am,yesterday.</div>
+                        <a class="card-link" href="#">
+                            <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adip.</h5>
+                        </a>
+
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo recusandae nulla rem eos ipsa praesentium esse magnam nemo dolor sequi fuga quia quaerat cum, obcaecati hic, molestias minima iste voluptates.
+                        </p>
+                        <div class="card-footer">
+                            <a href="#" class="card-link"><i class="fa fa-gittip"></i> <span class="glyphicon glyphicon-heart"></span> Like</a>
+                            <a href="#" class="card-link"><i class="fa fa-comment"></i> <span class="glyphicon glyphicon-comment"></span>Comment</a>
+                            <a href="#" class="card-link"><i class="fa fa-mail-forward"></i>  <span class="glyphicon glyphicon-share"></span>Share</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card gedf-card">
+                    <div class="card-header">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="mr-2">
+                                <img class="rounded-circle" width="80" src="pp.jpg" alt="profile pic">
+                            </div>
+                            <div class="ml-2">
+                                <div class="h5 m-0">Vishal Chandra Podishetty</div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="well">
+                        <div class="text-muted h7 mb-2"> <i class="fa fa-clock-o"></i>9:00pm,11th june,2021.</div>
+                        <a class="card-link" href="#">
+                            <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adip.</h5>
+                        </a>
+
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo recusandae nulla rem eos ipsa praesentium esse magnam nemo dolor sequi fuga quia quaerat cum, obcaecati hic, molestias minima iste voluptates.
+                        </p>
+                        <div class="card-footer">
+                            <a href="#" class="card-link"><i class="fa fa-gittip"></i> <span class="glyphicon glyphicon-heart"></span>Like</a>
+                            <a href="#" class="card-link"><i class="fa fa-comment"></i> <span class="glyphicon glyphicon-comment"></span>Comment</a>
+                            <a href="#" class="card-link"><i class="fa fa-mail-forward"></i> <span class="glyphicon glyphicon-share"></span> Share</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 well">
+                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Notifications</button>
+                <div id="demo" class="collapse">
+                    <div class="thumbnail">
+                        <p>Raj Shared a picture</p>
+                        <img src="car.jpg" alt="car" width="400" height="300">
+                        <p><strong>Silver Arrow😍</strong></p>
+                        <p>Fri,11th june,2021</p>
+                        <button class="btn btn-primary">View</button>
+                    </div>
+                    <div class="well">
+                        <p>Sri liked your picture</p>
+                        <img src="louis.jpg" alt="louis hamilton" width="200" height="200">
+                        <p><strong>LOUIS HAMILTON😎😉</strong></p>
+                        <p>Sat,12th june,2021</p>
+                        <button class="btn btn-primary"><span class="glyphicon glyphicon-comment"></span>Reply</button>
+                    </div>
+                    <div class="well">
+                        <p>Ajay <span class="glyphicon glyphicon-comment"></span>commented on your picture</p>
+                        <p style="color: blue;">AWSOME!!</p>
+                        <p>Sun,13th june,2021</p>
+                        <button class="btn btn-primary"> <span class="glyphicon glyphicon-heart"></span>Like</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</html>
